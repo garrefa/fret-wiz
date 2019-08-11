@@ -1,0 +1,7 @@
+{
+    "name": "Notes",
+    "instructions": "Play the indicated note in every string up to the 12th fret",
+    "items": [
+        "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"
+    ]
+}

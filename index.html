@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fretboard Wizard</title>
+    <link rel="stylesheet"
+      href="./node_modules/spectre.css/dist/spectre.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="columns">
+        <div class="column col-3">
+          <ul id="listMenu" class="menu">
+              <li class="divider" data-content="FretWiz">
+              </li>
+          </ul>
+
+        </div>
+
+        <div class="column col-7 text-center">
+          <h1 id="item-name" class="text-center">Fretboard Wizard</h1>
+          <div>
+            <p id="instructions"></p>
+          </div>
+          <div id='currentItem'></div>
+          <button id="nexItemBtn" type="button" class="btn">
+            Next Item
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

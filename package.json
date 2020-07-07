@@ -13,7 +13,7 @@
   "author": "Alexandre Garrefa",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^6.0.1",
+    "electron": "^7.2.4",
     "ramda": "^0.26.1",
     "electron-reload": "^1.5.0",
     "require-dir": "^1.2.0",
